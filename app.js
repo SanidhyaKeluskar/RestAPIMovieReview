@@ -8,8 +8,9 @@ app.get("/",(req,res)=>{
 app.get("/users",(req,res)=>{
 var user1={firstname: "John", lastName: "Smith"}
 const user2={firstname: "Sam", lastName: "Smith"}
+const user3={firstname: "Sam", lastName: "Smith"}
 
-res.json([user1,user2])
+res.json([user1,user2,user3])
 
    // res.send("hi from users")
 })
